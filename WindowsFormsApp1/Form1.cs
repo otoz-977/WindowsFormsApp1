@@ -45,22 +45,8 @@ namespace WindowsFormsApp1
                 }   
             }
             
-            //permite seleccionar
-            /*
-            if (!String.IsNullOrEmpty(Ans.Text) && (special == true))
-            {
-                if (Ans.Text == "a")
-                {
-                    
-                    
-                }
-                if (Ans.Text == "b")
-                {
-                   // Next(2);
-                   
-                }
-            }
-            */
+           
+          
             //escribe el texto
             Diag.Text = ms.Scenery(C,S);
             C++;
@@ -89,8 +75,7 @@ namespace WindowsFormsApp1
             //when file over
             
             if (Diag.Text == "...")
-            {
-                
+            { 
                 S++;
                 C = 0;
             }
